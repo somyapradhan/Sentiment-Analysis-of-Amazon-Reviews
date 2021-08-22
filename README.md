@@ -21,10 +21,10 @@ We have used the following alogorithms:
 6. Random Forest Classifier
 
 After training and hyperparameter tuning, we drew the following conclusion:
-1. Logistic Regression worked well and we got accuracy of 98% on test set and the f1 score for positive class was also quite good.
-2. KNN seemed to work best with test accuracy 99.69% and f1-score=1 for positive class.
+1. Logistic Regression worked well and we got accuracy of 98% on test set and the f1 score  was also quite good And the best part was eventhough the accuracy is a bit less than KNN and SVC, the all of the negative sentiments were classified correctly.
+2. KNN seemed to work best with test accuracy 99.69% and f1-score=1.
 3. SVC also worked well and similar to KNN but it took lot of time in training. This may be due to large numbe of features.
 4. Decision Tree performed poorly . We got overfitting and high variance problem.
-5. Randdom Forest Classifier( Ensembling Technique) seemed to work well than Decision Tree with accuracy of around 98% and f1-score 0.9 for positive class.
+5. Randdom Forest Classifier( Ensembling Technique) seemed to work well than Decision Tree with accuracy of around 98% and f1-score 0.9 .
 
 
